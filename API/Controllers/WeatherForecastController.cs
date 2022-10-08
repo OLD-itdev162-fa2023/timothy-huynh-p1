@@ -10,7 +10,7 @@ public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        "50° / 38° °F  Afternoon Clouds", "48° / 34° °F  Sprinkles. Decreasing Clouds.", "63° / 42° °F  Clearing Skies.", "65° / 42° °F  Sunny.", "52° / 40° °F  Sprinkles Early. Breaks Of Sun Late.", "53° / 37° °F  Partly Cloudy.", "51° / 40° °F  Mostly Cloudy.", "48° / 34° °F  Cloudy With A Chance of Rain", "48° / 32° °F Rain Likely.", "58° / 47° °F T-Storms.", "63° / 49° °F Showers.", "58° / 46° Partly Sunny.", "67° / 55° °F Mostly Sunny.", "51° / 38° °F Mostly Cloudy.", "48° / 34° °F Scattered Rain.", "56° / 42° °F Drizzle Likely.", "36° / 19°  °F Cold And Windy.", "41° / 22° °F Blustery.", "45° / 23°  °F Chance Of Freezing Rain."
     };
 
     private readonly ILogger<WeatherForecastController> _logger;

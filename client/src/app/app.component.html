@@ -1,5 +1,8 @@
 <h1>{{title}}</h1>
+<h2>{{body}}</h2>
 
 <ul>
-  <li *ngFor="let weatherForecast of weatherForecasts">{{weatherForecast.summary}}</li>
+  
+  <li *ngFor="let weatherForecast of weatherForecasts">{{weatherForecast.date}} : {{weatherForecast.summary}}</li>
+  
 </ul>
